@@ -1,0 +1,4 @@
+New Game - Client
+{
+	menu_command	new_game_client
+}

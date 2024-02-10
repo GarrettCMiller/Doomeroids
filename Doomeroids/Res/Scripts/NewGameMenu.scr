@@ -1,0 +1,9 @@
+MENU New Game
+{
+	image					TitleScreen.bmp	500	320
+
+	button	SinglePlayer	SinglePlayer.bmp	SinglePlayer_down.bmp	SinglePlayer_over.bmp	CENTER	350		NewGame.scr	
+
+	button	Server			Server.bmp			Server_down.bmp			Server_over.bmp			CENTER	500		NewGameServer.scr
+	button	Client			Client.bmp			Client_down.bmp			Client_over.bmp			CENTER	600		NewGameClient.scr
+}

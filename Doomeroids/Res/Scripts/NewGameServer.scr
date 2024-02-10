@@ -1,0 +1,4 @@
+New Game - Server
+{
+	menu_command	new_game_server
+}

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Game Name="Doomeroids">
+
+	<!--Defines all settings in the game-->
+	<Settings>
+		<Video>
+			<Resolution width="1024" height="768" windowed="true" />
+			<Advanced EnableShaders="true" />
+		</Video>
+    <Performance throttleFPS="true" throttleLimit="7" />
+		<Memory reserve="5" />						        <!--Reserve how many MB of memory-->
+		<Debug enabled="true" showFPS="true">
+			<Map render="false" autoSpawn="true" />
+			<Profiler enabled="false" />
+		</Debug>
+	</Settings>
+	
+	<!--Defines all weapons in the game-->
+	<WeaponSet>
+		<!--Weapon 0 - Unarmed-->
+		<Weapon Name="Unarmed" Damage="1" FireDelay="0.175" />
+		
+		<!--Weapon 1 - Pistol-->
+		<Weapon Name="Pistol" Damage="10" FireDelay="0.25" BulletSpeed="3">
+			<Image src="Bullet" width="0.25" height="0.25" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Pistol_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 2 - Shotgun-->
+		<Weapon Name="Shotgun" Damage="10" Shots="7" Spread="8" FireDelay="0.8" BulletSpeed="3">
+			<Image src="Bullet" width="0.25" height="0.25" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Shotgun_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 3 - Chaingun-->
+		<Weapon Name="Chaingun" Damage="10" FireDelay="0.1" BulletSpeed="3">
+			<Image src="Bullet" width="0.25" height="0.25" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Chaingun_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 4 - Rocket Launcher-->
+		<Weapon Name="Rocket Launcher" Damage="150" SplashDamage="100" SplashRadius="12.5" FireDelay="0.65" BulletSpeed="1.5">
+			<Image src="Rocket" width="4" height="1.5" />
+			<Sound type="Hit" src="Rocket_Hit" />
+			<Sound type="Fire" src="Rocket_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 5 - Plasma Rifle-->
+		<Weapon Name="Plasma Rifle" Damage="35" FireDelay="0.12" BulletSpeed="1.5">
+			<Image src="Plasma" width="0.5" height="0.5" />
+			<Sound type="Hit" src="Plasma_Hit" />
+			<Sound type="Fire" src="Plasma_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 6 - BFG 9000-->
+		<Weapon Name="BFG 9000" Damage="300" SplashDamage="200" SplashRadius="50" FireDelay="2.0" BulletSpeed="1.5">
+			<Image src="BFG" width="2" height="2" />
+			<Sound type="Hit" src="BFG_Hit" />
+			<Sound type="Fire" src="BFG_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 7 - Fireball (imp)-->
+		<Weapon Name="Fireball" Damage="15" FireDelay="1.0" BulletSpeed="1.5">
+			<Image src="fireball" width="0.5" height="0.5" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 8 - Lightning (cacodemon)-->
+		<Weapon Name="Lightning" Damage="35" FireDelay="1.25" BulletSpeed="2">
+			<Image src="lightning" width="0.5" height="0.5" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 9 - Green Fire (?) (baron)-->
+		<Weapon Name="Green Fire" Damage="50" FireDelay="1.5" BulletSpeed="2">
+			<Image src="greenfire" width="1.25" height="0.2" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+	</WeaponSet>
+	
+	<!--Defines all entities in the game-->
+	<EntitySet>
+		<!--Player-->
+		<Entity class="Player" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="100" maxhp="200">
+			<ImageSet src="marine" set="all" />
+			<Sound type="hurt" src="Player_Hurt" />
+			<Sound type="die" src="Player_Die_1" />
+			<Equipment>
+				<Equip type="weapon" name="pistol" />
+				<Equip type="weapon" name="shotgun" />
+				<Equip type="weapon" name="chaingun" />
+				<Equip type="weapon" name="rocket launcher" />
+				<Equip type="weapon" name="plasma rifle" />
+				<Equip type="weapon" name="BFG 9000" />
+			</Equipment>
+		</Entity>
+		
+		<!--ENEMIES-->
+		<!--Enemy 1 - Soldier-->
+		<Entity class="Soldier" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="20">
+			<ImageSet src="soldier" set="all" />
+			<Sound type="hurt" src="Human_Hurt" />
+			<Sound type="die" src="Human_Die_1" />
+			<Equipment>
+				<Equip type="weapon" name="pistol" />
+			</Equipment>
+		</Entity>
+		
+		<!--Enemy 2 - Sergeant-->
+		<Entity class="Sergeant" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="30">
+			<ImageSet src="sergeant" set="all" />
+			<Sound type="hurt" src="Human_Hurt" />
+			<Sound type="die" src="Human_Die_2" />
+			<Equipment>
+				<Equip type="weapon" name="shotgun" />
+			</Equipment>
+		</Entity>
+		
+		<!--Enemy 3 - Imp-->
+		<Entity class="Imp" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="50">
+			<ImageSet src="Imp" set="all" />
+			<Sound type="hurt" src="Imp_Hurt" />
+			<Sound type="die" src="Imp_Die" />
+			<Equipment>
+				<Equip type="weapon" name="fireball" />
+			</Equipment>
+		</Entity>
+		
+		<!--Enemy 4 - Cacodemon-->		
+		<Entity class="Cacodemon" footposx="-0.5" footposy="-1.5" width="4" height="4" hp="80">
+			<ImageSet src="Cacodemon" set="custom">
+				<Set src="walk" maxframes="1" />
+				<Set src="splatter" maxframes="0" />
+				<Set src="die" maxframes="5" />
+			</ImageSet>
+			<Sound type="hurt" src="Cacodemon_Hurt" />
+			<Sound type="die" src="Cacodemon_Die" />
+			<Equipment>
+				<Equip type="weapon" name="lightning" />
+			</Equipment>
+		</Entity>
+		
+		<!--Enemy 5 - Baron of Hell-->
+		<Entity class="Baron" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="200">
+			<ImageSet src="Baron" set="custom">
+				<Set src="walk" maxframes="4" />
+				<Set src="splatter" maxframes="0" />
+			</ImageSet>
+			<Sound type="hurt" src="Baron_Hurt" />
+			<Sound type="die" src="Baron_Die" />
+			<Equipment>
+				<Equip type="weapon" name="green fire" />
+			</Equipment>
+		</Entity>
+		
+		<!--Enemy 6 - Cyberdemon-->
+		<Entity class="Cyberdemon" footposx="-0.5" footposy="-1.5" width="4" height="5" hp="500">
+			<ImageSet src="cyberdemon" set="custom">
+				<Set src="walk" maxframes="4" />
+				<Set src="splatter" maxframes="0" />
+				<Set src="die" maxframes="8" />
+			</ImageSet>
+			<Sound type="hurt" src="Cyberdemon_Hurt" />
+			<Sound type="die" src="Cyberdemon_Die" />
+			<Equipment>
+				<Equip type="weapon" name="rocket launcher" />
+			</Equipment>
+		</Entity>
+		
+		<!--PROPS-->
+		<!--Prop 1 - Exploding Barrel-->
+		<Entity class="Prop" type="Barrel" hp="75" bbox="23.32">
+			<ImageSet src="barrel" set="partial">
+				<Set src="walk" maxframes="1" directional="0" />
+				<Set src="die" maxframes="3" directional="0" />
+			</ImageSet>
+			<Sound type="die" src="barrel_explode" />
+		</Entity>
+		
+	</EntitySet>
+</Game>

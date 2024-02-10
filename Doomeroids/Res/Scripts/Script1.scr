@@ -1,0 +1,11 @@
+Script 1
+{	
+	load_script			EscapeMenu.scr
+	
+	load_script			script2.scr
+	
+	load_script			script3.scr
+	
+	//run_script			MainMenu.scr
+	run_script			NewGame.scr
+}

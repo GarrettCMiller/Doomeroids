@@ -1,0 +1,8 @@
+MENU Escape Menu
+{
+	image	TitleScreen.bmp	475	320
+	
+	button	Resume	back.bmp		back_down.bmp		back_over.bmp		CENTER	350		back
+	
+	button	Exit	exitgame.bmp	exitgame_down.bmp	exitgame_over.bmp	CENTER	550		exit
+}

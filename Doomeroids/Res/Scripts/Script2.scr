@@ -1,0 +1,5 @@
+Spawn 2 Barons
+{
+	spawn		baron	width	random
+	spawn		baron	width	random
+}

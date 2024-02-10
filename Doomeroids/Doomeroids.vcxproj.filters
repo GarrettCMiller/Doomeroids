@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{6618907d-7a46-4bf6-b836-80926958437e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{8dda4f0a-733d-4eaa-bf58-de25292e7cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{1843f5e2-be70-4981-8910-70daf650a586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Entity">
+      <UniqueIdentifier>{98dbd040-f782-4817-8b03-b3f3294c54c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\UI">
+      <UniqueIdentifier>{f76adfde-3146-475f-88f6-9a3944c81f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Map">
+      <UniqueIdentifier>{78237161-cc57-442b-a99e-6635ec82dcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities / Math">
+      <UniqueIdentifier>{20b2a86c-b42c-4914-994a-6c4b1a114ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities / Math\XML">
+      <UniqueIdentifier>{298d2d11-37e0-4956-953b-a3fa49672f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities / Math\Misc">
+      <UniqueIdentifier>{7f0902ee-6434-4607-92a2-bf98914eaacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{161d88f5-0245-4e77-8e5f-c1f8563670d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Logs">
+      <UniqueIdentifier>{603eab2a-b317-4bbf-9e46-a0295295d381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Logs\Memory Manager">
+      <UniqueIdentifier>{ffb38c2f-6444-4d89-8177-781e14671840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scripts">
+      <UniqueIdentifier>{9aeb34a4-58b0-4f3e-85aa-880338a38a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scripts\Menus">
+      <UniqueIdentifier>{7ff5daaa-d69f-4524-bf88-1f08bce308b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Effects">
+      <UniqueIdentifier>{85457e76-b4c1-4f26-b6fe-6605542d8098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Windows">
+      <UniqueIdentifier>{40416a40-bfac-4d5a-aeae-a341bb5fcab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\XML">
+      <UniqueIdentifier>{b2d65a91-6c5e-44da-8f70-e38e023e5bc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="StatMgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMgr.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameXMLMgr.cpp">
+      <Filter>Source Files\Utilities / Math\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="GameXMLTables.cpp">
+      <Filter>Source Files\Utilities / Math\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Doomeroids.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScript.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMgr.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMgr.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StatMgr.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Source Files\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Source Files\Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMgr.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Source Files\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameXMLMgr.h">
+      <Filter>Source Files\Utilities / Math\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="GameXMLTables.h">
+      <Filter>Source Files\Utilities / Math\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBindings.h">
+      <Filter>Source Files\Utilities / Math\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Doomeroids.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logger.html">
+      <Filter>Resource Files\Logs</Filter>
+    </None>
+    <None Include="Network.html">
+      <Filter>Resource Files\Logs</Filter>
+    </None>
+    <None Include="Resources.html">
+      <Filter>Resource Files\Logs</Filter>
+    </None>
+    <None Include="Res\Scripts\NewGame.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\NewGameClient.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\NewGameServer.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\Script1.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\Script2.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\Script3.scr">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Res\Scripts\EscapeMenu.scr">
+      <Filter>Resource Files\Scripts\Menus</Filter>
+    </None>
+    <None Include="Res\Scripts\MainMenu.scr">
+      <Filter>Resource Files\Scripts\Menus</Filter>
+    </None>
+    <None Include="Res\Scripts\NewGameMenu.scr">
+      <Filter>Resource Files\Scripts\Menus</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Res\Effects\Default.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Doomeroids.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Doomeroids.rc">
+      <Filter>Resource Files\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GameDefinition.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

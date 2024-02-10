@@ -1,0 +1,333 @@
+All the following models were made by Edmundo Bordeu from ACE Team.
+Visit our DOOM TC at http://www.doomworld.com/batman/main.shtml
+my e-mail is ebordeu@rdc.cl
+
+Model information:
+
+Marine md2
+Polygons: 502
+Skin size: 256 X 256
+
+Marine Death md2
+Polygons: 464
+Skin size: 256 X 256
+
+Cyberdemon md2
+Polygons: 716
+Skin size: 256 X 256
+
+Cyberdemon shot-fire md2
+Polygons: 56
+Skin size: 16 X 16
+
+Cyberdemon blood-death md2
+Polygons: 26
+Skin size: 64 X 64
+
+Spider Mastermind md2
+Polygons: 686
+Skin size: 256 X 256
+
+Archvile md2
+Polygons: 464
+Skin size: 256 X 256
+
+Archvile fire attack md2
+Polygons: 128
+Skin size: 32 X 32
+
+Archvile death md2
+Polygons: 544
+Skin size: 256 X 256
+
+Mancubus md2
+Polygons: 470
+Skin size: 256 X 256
+
+Mancubus death md2
+Polygons: 555
+Skin size: 256 X 256
+
+Revenant md2
+Polygons: 520
+Skin size: 256 X 256
+
+Arachnotron md2
+Polygons: 500
+Skin size: 256 X 256
+
+Arachnotron Death md2
+Polygons: 538
+Skin size: 256 X 256
+
+Knight & Baron from Hell md2
+Polygons: 554
+Skin size: 256 X 256
+
+Knight & Baron from Hell death md2
+Polygons: 632
+Skin size: 256 X 256
+
+Chaingun guy md2
+Polygons: 576
+Skin size: 256 X 256
+
+Chaingun guy death md2
+Polygons: 559
+Skin size: 256 X 256
+
+Demon md2
+Polygons: 488
+Skin size: 256 X 256
+
+Demon death md2
+Polygons: 502
+Skin size: 256 X 256
+
+Imp md2
+Polygons: 458
+Skin size: 256 X 256
+
+Trooper md2
+Polygons: 500
+Skin size: 256 X 256
+
+Sargeant md2
+Polygons: 506
+Skin size: 256 X 256
+
+Sargeant death md2
+Polygons: 438
+Skin size: 256 X 256
+
+Cacodemon md2
+Polygons: 415
+Skin size: 256 X 256
+
+Cacodemon death md2
+Polygons: 376
+Skin size: 256 X 256
+
+Pain Elemental md2
+Polygons: 356
+Skin size: 256 X 256
+
+Lost Soul md2
+Polygons: 90
+Skin size: 128 X 128
+
+Medikit md2
+Polygons: 12
+Skin size: 32 X 32
+
+Berzerk box md2
+Polygons: 12
+Skin size: 32 X 32
+
+Stimpack md2
+Polygons: 12 
+Skin size: 32 X 32
+
+Big tree md2
+Polygons: 299
+Skin size: 128 X 128
+
+Burnt Tree md2
+Polygons: 159
+Skin size: 64 X 64
+
+Stalagmite md2
+Polygons: 54
+Skin size: 128 X 128
+
+Tall tek pillar md2
+Polygons: 100
+Skin size: 128 X 128
+
+Backpack md2
+Polygons: 80
+Skin size: 64 X 64
+
+Pool of blood md2
+Polygons: 69
+Skin size: 64 X 64
+
+Computer map md2
+Polygons: 42
+Skin size: 64 X 64
+
+Night vision goggles md2
+Polygons: 46
+Skin size: 32 X 32
+
+Head on a pole md2
+Polygons: 62
+Skin size: 64 X 64
+
+5 heads on a pole md2
+Polygons: 196
+Skin size: 64 X 64
+
+Rocket in air md2
+Polygons: 35
+Skin size: 32 X 32
+
+Rocket in floor md2
+Polygons: 27
+Skin size: 32 X 32
+
+Blue, Red & Yellow keycards md2
+Polygons: 20
+Skin size: 16 X 16
+
+Blue, Red & Yellow skullkeys md2
+Polygons: 50
+Skin size: 32 X 32
+
+Boss Spawn Cube md2
+Polygons: 12 
+Skin size: 32 X 32
+
+Green & red Tall Pillars & Small Pillars md2
+Polygons: 98
+Skin size: 64 X 64
+
+Pillar with heart md2
+Polygons: 140
+Skin size: 64 X 64
+
+Pillar with skull md2
+Polygons: 152
+Skin size: 64 X 64
+
+Gibs Bloodpool md2
+Polygons: 53
+Skin size: 64 X 64
+
+Blood and Brains md2
+Polygons: 25
+Skin size: 64 X 64
+
+Tiny Bloodpool md2
+Polygons: 10
+Skin size: 64 X 64 (gibs pool texture with a lot of unused space)
+
+Radiation Suit md2
+Polygons: 234
+Skin size: 128 X 128
+
+Green Armor md2
+Polygons: 60
+Skin size: 64 X 64
+
+Blue Armor md2
+Polygons: 60
+Skin size: 64 X 64
+
+Candle md2
+Polygons: 22
+Skin size: 16 X 16
+
+Candelabra md2
+Polygons: 280
+Skin size: 64 X 64
+
+Floating Skulls md2
+Polygons: 116
+Skin size: 64 X 64
+
+Hanging jacket guy md2
+Polygons: 396
+Skin size: 256 X 256
+
+Hanging jacket guy no leg md2
+Polygons: 354
+Skin size: 256 X 256
+
+Hanging Legs md2
+Polygons: 158
+Skin size: 128 X 128
+
+Hanging Leg md2
+Polygons: 62
+Skin size: 128 X 128 (Part of Hanging LegS skin)
+
+Impaled Human (no arm) md2
+Polygons: 447
+Skin size: 256 X 256
+
+Impaled Human (alive) md2
+Polygons: 454
+Skin size: 256 X 256
+
+Swaying torso md2
+Polygons: 263
+Skin size: 128 X 128
+
+Hanging guts out md2
+Polygons: 367
+Skin size: 256 X 256
+
+Hanging guts & leg out md2
+Polygons: 343
+Skin size: 256 X 256
+
+Hanging torso md2
+Polygons: 236
+Skin size: 256 X 256
+
+Hanging torso head back md2
+Polygons: 268
+Skin size: 256 X 256
+
+Hanging torso no brain md2
+Polygons: 249
+Skin size: 256 X 256
+
+Hanging torso showing brain md2
+Polygons: 248
+Skin size: 256 X 256
+
+Barrel md2
+Polygons: 38
+Skin size: 128 X 128
+
+Big lamp md2
+Polygons: 96
+Skin size: 128 X 128
+
+Medium lamp md2
+Polygons: 66
+Skin size: 128 X 128
+
+Small lamp md2
+Polygons: 66
+Skin size: 64 X 64
+
+Skulls & candles md2
+Polygons: 301
+Skin size: 64 X 64
+
+Firesticks (red, green, blue) md2
+Polygons: 79
+Skin size: 64 X 64
+
+Big torches (red, green, blue) md2
+Polygons: 183
+Skin size: 128 X 128
+
+Evil eye md2
+Polygons: 141
+Skin size: 64 X 64
+
+Burning barrel md2
+Polygons: 135
+Skin size: 128 X 128
+
+Health bonus md2
+Polygons: 35
+Skin size: 32 X 32
+
+Armor Bonus md2
+Polygons: 35
+Skin size: 32 X 32

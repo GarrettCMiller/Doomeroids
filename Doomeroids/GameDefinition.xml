@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Game Name="Doomeroids">
+
+	<!--Defines all settings in the game-->
+	<Settings>
+		<Video>
+			<Resolution width="1024" height="768" windowed="true" />
+			<Advanced EnableShaders="true" />
+		</Video>
+    <Performance throttleFPS="true" throttleLimit="7" />
+		<Memory reserve="10" />						        <!--Reserve how many MB of memory-->
+		<Debug enabled="true" showFPS="true">
+			<Map render="true" autoSpawn="true" />
+			<Profiler enabled="false" />
+		</Debug>
+	</Settings>
+	
+	<!--Defines all weapons in the game-->
+	<WeaponSet>
+		<!--Weapon 0 - Unarmed-->
+		<Weapon Name="Unarmed" Damage="1" FireDelay="0.175" />
+		
+		<!--Weapon 1 - Pistol-->
+		<Weapon Name="Pistol" Damage="10" FireDelay="0.25" BulletSpeed="10">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Pistol_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 2 - Shotgun-->
+		<Weapon Name="Shotgun" Damage="10" Shots="7" Spread="8" FireDelay="0.8" BulletSpeed="3">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Shotgun_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 3 - Chaingun-->
+		<Weapon Name="Chaingun" Damage="10" FireDelay="0.1" BulletSpeed="3">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="Bullet_Hit" />
+			<Sound type="Fire" src="Chaingun_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 4 - Rocket Launcher-->
+		<Weapon Name="Rocket Launcher" Damage="100" SplashDamage="50" SplashRadius="12.5" FireDelay="0.65" BulletSpeed="1.5">
+			<Mesh src="Rocket" />
+			<Sound type="Hit" src="Rocket_Hit" />
+			<Sound type="Fire" src="Rocket_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 5 - Plasma Rifle-->
+		<Weapon Name="Plasma Rifle" Damage="35" FireDelay="0.12" BulletSpeed="1.5">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="Plasma_Hit" />
+			<Sound type="Fire" src="Plasma_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 6 - BFG 9000-->
+		<Weapon Name="BFG 9000" Damage="300" SplashDamage="200" SplashRadius="50" FireDelay="2.0" BulletSpeed="1.5">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="BFG_Hit" />
+			<Sound type="Fire" src="BFG_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 7 - Fireball (imp)-->
+		<Weapon Name="Fireball" Damage="15" FireDelay="1.0" BulletSpeed="1.5">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 8 - Lightning (cacodemon)-->
+		<Weapon Name="Lightning" Damage="35" FireDelay="1.25" BulletSpeed="2">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+		<!--Weapon 9 - Green Fire (?) (baron)-->
+		<Weapon Name="Green Fire" Damage="50" FireDelay="1.5" BulletSpeed="2">
+			<Mesh src="Bullet" />
+			<Sound type="Hit" src="fireball_Hit" />
+			<Sound type="Fire" src="fireball_Shoot" />
+		</Weapon>
+		
+	</WeaponSet>
+	
+	<!--Defines all entities in the game-->
+	<EntitySet>
+		<!--Player-->
+		<Entity class="Player" hp="100" maxhp="200">
+			<Mesh src="Doomguy" />
+			<Sound type="hurt" src="Player_Hurt" />
+			<Sound type="die" src="Player_Die_1" />
+			<Equipment>
+				<Equip type="weapon" name="pistol" />
+				<Equip type="weapon" name="shotgun" />
+				<Equip type="weapon" name="chaingun" />
+				<Equip type="weapon" name="rocket launcher" />
+				<Equip type="weapon" name="plasma rifle" />
+				<Equip type="weapon" name="BFG 9000" />
+			</Equipment>
+		</Entity>
+		
+		<!--ENEMIES-->
+		<!--Enemy 1 - Soldier-->
+    		<Entity class="Soldier" hp="50" maxhp="100">
+      			<Mesh src="Soldier" />
+    		</Entity>
+		
+		<!--PROPS-->
+		<!--Prop 1 - Exploding Barrel-->
+		<Entity class="Prop" type="Barrel" hp="75">
+      			<Mesh src="Barrel" />
+			<Sound type="die" src="barrel_explode" />
+		</Entity>
+		
+	</EntitySet>
+</Game>

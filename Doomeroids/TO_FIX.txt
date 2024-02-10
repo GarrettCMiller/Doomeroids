@@ -1,0 +1,6 @@
+TODO:
+
+* Fix slow frame rate
+* Fix script manager
+* Fix map rendering
+* Fix terrain

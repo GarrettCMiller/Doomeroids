@@ -1,0 +1,8 @@
+MENU Main Menu
+{
+	image				TitleScreen.bmp	500	320
+
+	button	NewGame		newgame.bmp		newgame_down.bmp	newgame_over.bmp	CENTER	350		NewGameMenu.scr	
+
+	button	Exit		exitgame.bmp	exitgame_down.bmp	exitgame_over.bmp	CENTER	500		exit
+}

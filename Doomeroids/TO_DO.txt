@@ -1,0 +1,58 @@
+Entity hierarchy
+	-	DONE ----------> Entity base class
+	-	DONE ----------> Creature class
+		-	DONE ----------> Player class
+		-	DONE ----------> Monster class
+		-	DONE ----------> Prop class (Barrels, other static objects)
+	-	DONE ----------> Weapon class
+	-	DONE ----------> Bullet class
+	-	DONE ----------> Item class
+	
+Entity Manager
+	-	DONE ----------> 
+
+Animation Manager
+	-	??
+
+DirectSound
+	-	DONE ----------> 
+
+Sound Manager
+	-	DONE ----------> 
+	
+DirectInput
+	-	DONE ----------> Keyboard
+	-	DONE ----------> Mouse
+
+Logger
+	-	DONE ----------> Basic Text
+	-	DONE ----------> Basic HTML
+	
+ScriptMgr
+	-	DONE ----------> Script loading
+	-	DONE ----------> Script execution
+		-	DONE ----------> Script queue
+		
+UI
+	-	DONE ----------> Base UI class
+		-	DONE ----------> Image class
+		-	Button class
+			-	Radio button class
+			-	DONE ----------> Push button class
+			-	Check button class
+		-	Counter class
+		-	DONE ----------> Text class
+		
+		
+	
+	TODO: 
+		-	DONE ----------> Copy scripts into run queue instead of moving them
+							(to enable a script running more than once)
+			
+		-	DONE ----------> Add time-based movement/animation
+		
+		-	DONE ----------> Solve shotgun problem for release 
+		
+		-	Fix log timestamping
+		
+		-	DONE ----------> Only show MENU scripts once in log

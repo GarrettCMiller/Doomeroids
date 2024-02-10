@@ -1,0 +1,4 @@
+Spawn Cyberdemon
+{
+	spawn			cyberdemon	width	random
+}
